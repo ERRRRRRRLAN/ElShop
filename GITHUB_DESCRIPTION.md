@@ -1,0 +1,13 @@
+# Deskripsi GitHub (350 kata)
+
+ElShop adalah platform e-commerce modern yang dirancang khusus untuk menjual item game dan menyediakan jasa joki gaming. Website ini menggabungkan fungsi company profile dengan sistem e-commerce lengkap, memberikan pengalaman berbelanja yang seamless untuk para gamer Indonesia.
+
+Platform ini dibangun menggunakan teknologi web modern dengan fokus pada performa, user experience, dan desain yang menarik. ElShop mendukung berbagai produk gaming seperti diamond Mobile Legends, UC PUBG Mobile, Genesis Crystal Genshin Impact, voucher Steam Wallet, serta berbagai jasa joki rank untuk berbagai game populer seperti Mobile Legends, PUBG Mobile, Genshin Impact, dan Clash of Clans.
+
+Website ini menawarkan berbagai fitur lengkap untuk kebutuhan e-commerce. Di sisi company profile, terdapat halaman beranda dengan hero section yang menarik dilengkapi animasi modern, halaman tentang perusahaan yang informatif, halaman layanan yang menjelaskan berbagai jasa yang ditawarkan, serta halaman kontak dengan form untuk komunikasi. Di sisi e-commerce, platform ini dilengkapi dengan katalog produk lengkap yang memiliki sistem filtering berdasarkan kategori dan game, halaman detail produk yang informatif, shopping cart yang persisten menggunakan localStorage sehingga data keranjang tidak hilang saat pengguna menutup browser, dan halaman checkout yang siap untuk integrasi payment gateway di masa depan.
+
+Dari segi teknologi, ElShop dibangun menggunakan Next.js 14 dengan App Router untuk mendapatkan manfaat server-side rendering yang meningkatkan performa dan SEO. TypeScript digunakan untuk memastikan type safety dan mengurangi kemungkinan bug selama development. Styling menggunakan Tailwind CSS yang memungkinkan pengembangan UI yang cepat dan konsisten. State management untuk shopping cart menggunakan React Context API yang terintegrasi dengan localStorage untuk persistensi data.
+
+Desain website ini responsif dan optimal untuk berbagai perangkat, mulai dari smartphone hingga desktop. Animasi dan transisi yang smooth memberikan pengalaman pengguna yang lebih baik. Website ini juga dirancang sebagai template yang mudah dikustomisasi, memungkinkan developer untuk dengan mudah mengubah data produk, menyesuaikan warna dan tema, serta menambahkan fitur-fitur baru sesuai kebutuhan.
+
+Platform ini siap digunakan sebagai dasar untuk pengembangan lebih lanjut, dengan rencana penambahan fitur seperti integrasi payment gateway, sistem autentikasi pengguna, riwayat pesanan, review dan rating produk, dashboard admin, fitur pencarian, dan wishlist. ElShop merupakan solusi lengkap dan profesional untuk bisnis gaming yang ingin memiliki platform online modern dengan teknologi terkini.
