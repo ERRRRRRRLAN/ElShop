@@ -3,32 +3,32 @@ import { FiShield, FiTruck, FiHeadphones, FiAward } from 'react-icons/fi'
 const features = [
   {
     icon: FiShield,
-    title: '100% Aman & Terpercaya',
-    description: 'Transaksi aman dengan sistem keamanan terbaik dan enkripsi tingkat tinggi',
+    title: '100% Safe & Trusted',
+    description: 'Secure transactions with the best security systems and high-level encryption',
     gradient: 'from-green-500/20 to-emerald-500/20',
     iconColor: 'text-green-400',
     glowColor: 'group-hover:shadow-green-500/20',
   },
   {
     icon: FiTruck,
-    title: 'Pengiriman Cepat',
-    description: 'Item dikirim langsung ke akun game Anda dalam hitungan menit',
+    title: 'Fast Delivery',
+    description: 'Items delivered directly to your game account within minutes',
     gradient: 'from-primary-500/20 to-purple-500/20',
     iconColor: 'text-primary-400',
     glowColor: 'group-hover:shadow-primary-500/20',
   },
   {
     icon: FiHeadphones,
-    title: 'Support 24/7',
-    description: 'Tim support profesional siap membantu kapan saja, setiap hari',
+    title: '24/7 Support',
+    description: 'Professional support team ready to help anytime, every day',
     gradient: 'from-purple-500/20 to-pink-500/20',
     iconColor: 'text-purple-400',
     glowColor: 'group-hover:shadow-purple-500/20',
   },
   {
     icon: FiAward,
-    title: 'Kualitas Terjamin',
-    description: 'Produk dan layanan berkualitas tinggi dengan garansi kepuasan',
+    title: 'Quality Guaranteed',
+    description: 'High-quality products and services with satisfaction guarantee',
     gradient: 'from-amber-500/20 to-orange-500/20',
     iconColor: 'text-amber-400',
     glowColor: 'group-hover:shadow-amber-500/20',
@@ -46,11 +46,11 @@ export default function Features() {
           {/* Enhanced Section Header */}
           <div className="text-center mb-16 max-w-3xl mx-auto animate-fade-in-up">
             <h2 className="text-heading-1 mb-6 text-white">
-              Mengapa Pilih <span className="text-shimmer">ElShop?</span>
+              Why Choose <span className="text-shimmer">ElShop?</span>
             </h2>
               <p className="text-xl text-gray-200 leading-relaxed">
-                Kami memberikan pengalaman terbaik dengan layanan berkualitas tinggi 
-                dan komitmen terhadap kepuasan pelanggan
+                We provide the best experience with high-quality services 
+                and commitment to customer satisfaction
               </p>
           </div>
           

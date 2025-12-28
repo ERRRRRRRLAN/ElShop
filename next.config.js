@@ -51,6 +51,10 @@ const nextConfig = {
       //   hostname: 'your-image-domain.com',
       // },
     ],
+    // Disable image optimization to prevent 404 spam errors
+    // This prevents Next.js from trying to optimize images server-side which causes spam errors
+    // Images will still work but won't be optimized (slightly larger file sizes)
+    unoptimized: true,
   },
 }
 

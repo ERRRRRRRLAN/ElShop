@@ -3,37 +3,37 @@ import { FiCheckCircle, FiArrowRight, FiStar, FiZap, FiShield } from 'react-icon
 
 const services = [
   {
-    name: 'Joki Rank Mobile Legends',
+    name: 'Mobile Legends Rank Boosting',
     icon: FiStar,
     gradient: 'from-blue-500/20 to-cyan-500/20',
     iconColor: 'text-blue-400'
   },
   {
-    name: 'Joki Rank PUBG Mobile',
+    name: 'PUBG Mobile Rank Boosting',
     icon: FiZap,
     gradient: 'from-orange-500/20 to-red-500/20',
     iconColor: 'text-orange-400'
   },
   {
-    name: 'Joki Genshin Impact',
+    name: 'Genshin Impact Boosting',
     icon: FiShield,
     gradient: 'from-purple-500/20 to-pink-500/20',
     iconColor: 'text-purple-400'
   },
   {
-    name: 'Joki Clash of Clans',
+    name: 'Clash of Clans Boosting',
     icon: FiCheckCircle,
     gradient: 'from-green-500/20 to-emerald-500/20',
     iconColor: 'text-green-400'
   },
   {
-    name: 'Joki Free Fire',
+    name: 'Free Fire Boosting',
     icon: FiZap,
     gradient: 'from-yellow-500/20 to-amber-500/20',
     iconColor: 'text-yellow-400'
   },
   {
-    name: 'Joki Valorant',
+    name: 'Valorant Boosting',
     icon: FiStar,
     gradient: 'from-primary-500/20 to-purple-500/20',
     iconColor: 'text-primary-400'
@@ -60,8 +60,8 @@ export default function Services() {
                 Our Premium <span className="text-shimmer">Services</span>
               </h2>
                 <p className="text-xl text-gray-200 leading-relaxed max-w-3xl mx-auto">
-                  Kami menyediakan berbagai jasa joki gaming profesional untuk membantu Anda 
-                  mencapai tujuan gaming Anda dengan cepat dan aman.
+                  We provide various professional gaming boosting services to help you 
+                  achieve your gaming goals quickly and safely.
                 </p>
             </div>
             

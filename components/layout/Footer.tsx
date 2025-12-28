@@ -22,8 +22,8 @@ export default function Footer() {
               <div className="w-12 h-1 bg-gradient-to-r from-primary-400 to-purple-400 rounded-full"></div>
             </div>
             <p className="text-gray-200 leading-relaxed mb-6">
-              Platform terpercaya untuk item game dan jasa joki gaming terbaik. 
-              Kami menyediakan berbagai produk dan layanan gaming berkualitas tinggi.
+              Trusted platform for game items and premium gaming services. 
+              We provide various high-quality gaming products and services.
             </p>
             <div className="flex space-x-3">
               <a 
@@ -138,7 +138,7 @@ export default function Footer() {
                 &copy; {new Date().getFullYear()} ElShop. All rights reserved.
               </p>
               <p className="text-sm text-gray-500">
-                Trusted by <span className="text-primary-400 font-semibold">1000+</span> gamers across Indonesia
+                Trusted by <span className="text-primary-400 font-semibold">1000+</span> gamers worldwide
               </p>
             </div>
             <div className="text-center md:text-right">

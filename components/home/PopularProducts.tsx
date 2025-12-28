@@ -24,7 +24,7 @@ export default function PopularProducts() {
                 Popular <span className="text-shimmer">Products</span>
               </h2>
                 <p className="text-xl text-gray-200 leading-relaxed">
-                  Produk terlaris dan paling diminati oleh para gamers di seluruh Indonesia
+                  Best-selling products most loved by gamers worldwide
                 </p>
             </div>
             <Link

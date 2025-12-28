@@ -36,8 +36,8 @@ const inter = Inter({ subsets: ['latin'] })
  * - Social media sharing previews
  */
 export const metadata: Metadata = {
-  title: 'ElShop - Game Items & Joki Services',
-  description: 'ElShop - Platform terpercaya untuk item game dan jasa joki gaming terbaik',
+  title: 'ElShop - Game Items & Boosting Services',
+  description: 'ElShop - Trusted platform for game items and premium gaming services',
 }
 
 /**
@@ -60,7 +60,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="id" className="bg-black">
+    <html lang="en" className="bg-black">
       <body className={`${inter.className} bg-black`}>
         {/* CartProvider wraps the entire app to provide cart state to all components */}
         <CartProvider>

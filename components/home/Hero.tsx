@@ -45,21 +45,21 @@ export default function Hero() {
             {/* Badge */}
             <div className="inline-flex items-center space-x-2 bg-white/5 backdrop-blur-xl px-6 py-3 rounded-full mb-8 border border-primary-500/30 hover-glow animate-fade-in-up">
               <FiStar className="w-5 h-5 text-yellow-400" />
-              <span className="text-sm font-semibold text-shimmer">Platform Gaming Terpercaya #1 di Indonesia</span>
+              <span className="text-sm font-semibold text-shimmer">#1 Trusted Gaming Platform</span>
             </div>
             
             {/* Main Heading */}
             <h1 className="text-display mb-8 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
               <span className="block mb-4 font-black text-6xl md:text-7xl lg:text-8xl bg-gradient-to-r from-primary-400 via-purple-400 to-primary-600 bg-clip-text text-transparent">ElShop</span>
               <span className="block text-2xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-primary-400 via-purple-400 to-primary-600 bg-clip-text text-transparent">
-                Game Items & Joki Services
+                Game Items & Boosting Services
               </span>
             </h1>
             
             {/* Description */}
               <p className="text-xl md:text-2xl text-gray-200 mb-12 max-w-3xl mx-auto leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
-                Platform terpercaya untuk item game dan jasa joki gaming terbaik. 
-                <span className="block mt-2 text-primary-200">Dapatkan produk gaming berkualitas tinggi dengan harga terbaik dan proses cepat.</span>
+                Trusted platform for game items and premium gaming services. 
+                <span className="block mt-2 text-primary-200">Get high-quality gaming products at the best prices with fast processing.</span>
               </p>
             
             {/* CTA Buttons */}

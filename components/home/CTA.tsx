@@ -25,11 +25,11 @@ export default function CTA() {
               </div>
               
               <h2 className="text-heading-1 mb-8 text-white">
-                Siap Memulai Perjalanan Gaming Anda?
+                Ready to Start Your Gaming Journey?
               </h2>
               <p className="text-xl text-gray-100 leading-relaxed max-w-3xl mx-auto">
-                Jelajahi produk dan layanan kami untuk menemukan solusi gaming terbaik. 
-                <span className="block mt-2 text-primary-200">Bergabunglah dengan ribuan gamer yang sudah merasakan pengalaman terbaik!</span>
+                Explore our products and services to find the best gaming solutions. 
+                <span className="block mt-2 text-primary-200">Join thousands of gamers who have experienced the best!</span>
               </p>
             </div>
             

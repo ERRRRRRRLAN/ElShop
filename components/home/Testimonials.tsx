@@ -4,7 +4,7 @@ const testimonials = [
   {
     name: 'Ahmad Rizki',
     role: 'Mobile Legends Player',
-    content: 'Pelayanan sangat cepat dan profesional. Item langsung masuk ke akun dalam hitungan menit. Recommended!',
+    content: 'Very fast and professional service. Items went directly to my account within minutes. Highly recommended!',
     rating: 5,
     avatar: 'AR',
     gradient: 'from-blue-500/20 to-cyan-500/20',
@@ -12,7 +12,7 @@ const testimonials = [
   {
     name: 'Siti Nurhaliza',
     role: 'PUBG Mobile Player',
-    content: 'Joki rank service mereka sangat bagus. Akun aman dan rank naik sesuai yang dijanjikan. Terima kasih ElShop!',
+    content: 'Their rank boosting service is excellent. Account is safe and rank increased as promised. Thank you ElShop!',
     rating: 5,
     avatar: 'SN',
     gradient: 'from-pink-500/20 to-rose-500/20',
@@ -20,7 +20,7 @@ const testimonials = [
   {
     name: 'Budi Santoso',
     role: 'Genshin Impact Player',
-    content: 'Harga kompetitif dan proses transaksi mudah. Support juga responsif banget. Will order again!',
+    content: 'Competitive prices and easy transaction process. Support is also very responsive. Will order again!',
     rating: 5,
     avatar: 'BS',
     gradient: 'from-purple-500/20 to-indigo-500/20',
@@ -43,10 +43,10 @@ export default function Testimonials() {
           {/* Enhanced Section Header */}
           <div className="text-center mb-16 max-w-3xl mx-auto animate-fade-in-up">
             <h2 className="text-heading-1 mb-6 text-white">
-              Apa Kata <span className="text-shimmer">Pelanggan?</span>
+              What Our <span className="text-shimmer">Customers Say?</span>
             </h2>
               <p className="text-xl text-gray-200 leading-relaxed">
-                Ribuan pelanggan puas dengan layanan kami di seluruh Indonesia
+                Thousands of satisfied customers with our services worldwide
               </p>
           </div>
 

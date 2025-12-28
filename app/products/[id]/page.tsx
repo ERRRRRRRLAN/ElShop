@@ -67,6 +67,7 @@ export default function ProductDetailPage() {
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 100vw, 50vw"
+              unoptimized={true}
               onError={(e) => {
                 const target = e.target as HTMLImageElement;
                 target.src = `https://images.unsplash.com/photo-1552820728-8b83bb6b773c?w=800&h=600&fit=crop&q=80`;

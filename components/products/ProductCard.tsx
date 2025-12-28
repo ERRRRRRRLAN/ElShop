@@ -57,6 +57,12 @@ export default function ProductCard({ product }: ProductCardProps) {
   
   // State for loading indicator when adding to cart
   const [isAdding, setIsAdding] = useState(false)
+  
+  // State for image error handling
+  const [imageError, setImageError] = useState(false)
+  
+  // Fallback image URL
+  const fallbackImage = 'https://images.unsplash.com/photo-1552820728-8b83bb6b773c?w=800&h=600&fit=crop&q=80'
 
   /**
    * Handle Add to Cart Click
@@ -108,17 +114,30 @@ export default function ProductCard({ product }: ProductCardProps) {
     >
       <Link href={`/products/${product.id}`}>
         <div className="relative w-full h-56 bg-gradient-to-br from-gray-800 via-gray-900 to-black overflow-hidden">
-          <Image
-            src={product.image}
-            alt={product.name}
-            fill
-            className={`object-cover transition-all duration-700 ${isHovered ? 'scale-110 brightness-110' : 'scale-100'}`}
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
-            onError={(e) => {
-              const target = e.target as HTMLImageElement;
-              target.src = `https://images.unsplash.com/photo-1552820728-8b83bb6b773c?w=800&h=600&fit=crop&q=80`;
-            }}
-          />
+          {imageError ? (
+            // Use regular img tag for fallback to avoid Next.js Image optimization issues
+            <img
+              src={fallbackImage}
+              alt={product.name}
+              className={`w-full h-full object-cover transition-all duration-700 ${isHovered ? 'scale-110 brightness-110' : 'scale-100'}`}
+            />
+          ) : (
+            <Image
+              src={product.image}
+              alt={product.name}
+              fill
+              className={`object-cover transition-all duration-700 ${isHovered ? 'scale-110 brightness-110' : 'scale-100'}`}
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+              onError={() => {
+                // Set error state to use fallback image immediately
+                setImageError(true)
+              }}
+              unoptimized={true}
+              onLoadingComplete={() => {
+                // Image loaded successfully, do nothing
+              }}
+            />
+          )}
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition-all duration-300"></div>
           <div className="absolute inset-0 bg-gradient-to-br from-primary-500/0 via-primary-500/5 to-purple-500/10 opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
           

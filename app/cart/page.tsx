@@ -74,6 +74,11 @@ export default function CartPage() {
                     fill
                     className="object-cover"
                     sizes="80px"
+                    unoptimized={true}
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.src = `https://images.unsplash.com/photo-1552820728-8b83bb6b773c?w=800&h=600&fit=crop&q=80`;
+                    }}
                   />
                 </div>
                 <div className="flex-1">

@@ -6,7 +6,7 @@
  * 
  * Features:
  * - Display all products in a responsive grid
- * - Filter by category (Diamond, UC, Joki, Voucher, etc.)
+ * - Filter by category (Diamond, UC, Boosting, Voucher, etc.)
  * - Filter by game (Mobile Legends, PUBG Mobile, etc.)
  * - Mobile-responsive filter toggle
  * - Product count display
@@ -81,7 +81,7 @@ export default function ProductsPage() {
           <div className="content-container">
             <h1 className="text-heading-1 mb-4 text-white">All Products</h1>
             <p className="text-body-large text-gray-400 max-w-2xl">
-              Temukan berbagai item game dan jasa joki gaming terbaik untuk kebutuhan Anda
+              Discover the best game items and gaming services for your needs
             </p>
           </div>
         </div>
@@ -135,7 +135,7 @@ export default function ProductsPage() {
           {/* Results Count */}
           <div className="mb-6">
             <p className="text-body text-gray-400">
-              Menampilkan <span className="font-semibold text-white">{filteredProducts.length}</span> produk
+              Showing <span className="font-semibold text-white">{filteredProducts.length}</span> products
             </p>
           </div>
 

@@ -3,26 +3,26 @@ import Link from 'next/link'
 
 const services = [
   {
-    name: 'Joki Rank Mobile Legends',
-    description: 'Jasa joki rank Mobile Legends dari Bronze hingga Mythic. Pro player berpengalaman akan membantu Anda naik rank dengan cepat dan aman.',
+    name: 'Mobile Legends Rank Boosting',
+    description: 'Mobile Legends rank boosting service from Bronze to Mythic. Experienced pro players will help you rank up quickly and safely.',
     price: 'Starting from Rp 50.000',
     features: ['Pro Player', 'Fast Delivery', '100% Safe', '24/7 Support'],
   },
   {
-    name: 'Joki Rank PUBG Mobile',
-    description: 'Jasa joki rank PUBG Mobile untuk berbagai tier. Tim profesional kami akan membantu Anda mencapai rank yang diinginkan.',
+    name: 'PUBG Mobile Rank Boosting',
+    description: 'PUBG Mobile rank boosting service for various tiers. Our professional team will help you reach your desired rank.',
     price: 'Starting from Rp 60.000',
     features: ['Expert Team', 'Guaranteed Rank', 'Secure Account', 'Quick Service'],
   },
   {
-    name: 'Joki Genshin Impact',
-    description: 'Jasa joki Genshin Impact untuk quest, farming, dan daily mission. Hemat waktu dengan layanan joki profesional kami.',
+    name: 'Genshin Impact Boosting',
+    description: 'Genshin Impact boosting service for quests, farming, and daily missions. Save time with our professional boosting service.',
     price: 'Starting from Rp 40.000',
     features: ['Daily Mission', 'Quest Completion', 'Resource Farming', 'Account Safety'],
   },
   {
-    name: 'Joki Clash of Clans',
-    description: 'Jasa joki Clash of Clans untuk upgrade base dan farming resources. Tim berpengalaman siap membantu perkembangan base Anda.',
+    name: 'Clash of Clans Boosting',
+    description: 'Clash of Clans boosting service for base upgrades and resource farming. Experienced team ready to help develop your base.',
     price: 'Starting from Rp 35.000',
     features: ['Base Upgrade', 'Resource Farming', 'War Participation', 'Secure Service'],
   },
@@ -36,7 +36,7 @@ export default function ServicesPage() {
           <div className="max-w-4xl mx-auto text-center mb-12">
             <h1 className="text-heading-1 mb-4 text-white">Our Services</h1>
             <p className="text-body-large text-gray-400">
-              Jasa joki gaming profesional untuk membantu Anda mencapai tujuan gaming dengan cepat dan aman.
+              Professional gaming boosting services to help you achieve your gaming goals quickly and safely.
             </p>
           </div>
 
@@ -76,7 +76,7 @@ export default function ServicesPage() {
                 </div>
                 <h3 className="text-heading-3 mb-2 text-white">Fast Delivery</h3>
                 <p className="text-body-small text-gray-400">
-                  Layanan cepat dengan proses yang efisien
+                  Fast service with efficient processes
                 </p>
               </div>
               <div className="text-center">
@@ -85,7 +85,7 @@ export default function ServicesPage() {
                 </div>
                 <h3 className="text-heading-3 mb-2 text-white">100% Safe</h3>
                 <p className="text-body-small text-gray-400">
-                  Keamanan akun Anda adalah prioritas kami
+                  Your account security is our priority
                 </p>
               </div>
               <div className="text-center">
@@ -94,7 +94,7 @@ export default function ServicesPage() {
                 </div>
                 <h3 className="text-heading-3 mb-2 text-white">Professional Team</h3>
                 <p className="text-body-small text-gray-400">
-                  Tim profesional berpengalaman di bidang gaming
+                  Experienced professional team in gaming
                 </p>
               </div>
             </div>
